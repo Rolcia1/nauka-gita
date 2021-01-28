@@ -5,3 +5,19 @@ body {
     background: #fff;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.splash {
+    background: #546A61;
+    background-image: url('https://i.postimg.cc/VkC2sgG7/mohammed-nasim-Fr-A7zgb5lus-unsplash.jpg');
+    height: 50vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
