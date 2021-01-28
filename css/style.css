@@ -1,16 +1,46 @@
+
 body {
+    margin: 0;
     text-align: center;
-    background: #3d3d3d;
-    
+    background: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .splash {
-    background-image: url("https://i.postimg.cc/Vk5gfWFS/pexels-dominika-roseclay-4148012.jpg");
+    background: #546A61;
+    background-image: url('https://i.postimg.cc/VkC2sgG7/mohammed-nasim-Fr-A7zgb5lus-unsplash.jpg');
+    height: 50vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
 }
 .page-title {
-    color:blueviolet;
+    color: #46555C;
+    font-size: 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 80px;
+}
+
+.page-subtitle {
+    color: #723424;
+    font-style: italic;
+    font-size: 24px;
 }
 .poem {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    color: #723424;
+    margin-bottom: 60px;
+}
+.page-footer {
+    background: #D45837;
+    color: #D3E1E6;
+    height: 100%;    
+    font-size: 12px;
+    line-height: 1.7;
 }
