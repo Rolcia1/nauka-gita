@@ -21,3 +21,26 @@ body {
     left: 50%; 
     transform: translate(-50%,-50%);
 }
+.page-title {
+    color: #46555C;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-subtitle {
+    color: #723424;
+    font-style: italic;
+    font-size: 24px;
+}
+.poem {
+    margin-top: 60px;
+    color: #723424;
+    margin-bottom: 60px;
+}
+.page-footer {
+    background: #D45837;
+    color: #D3E1E6;
+    height: 100%;    
+    font-size: 12px;
+    line-height: 1.7;
+}
