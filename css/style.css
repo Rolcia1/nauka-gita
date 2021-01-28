@@ -1,3 +1,16 @@
 body {
     text-align: center;
+    background: #3d3d3d;
+    
+}
+.splash {
+    background-image: url("https://i.postimg.cc/Vk5gfWFS/pexels-dominika-roseclay-4148012.jpg");
+}
+.page-title {
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+}
+.poem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
